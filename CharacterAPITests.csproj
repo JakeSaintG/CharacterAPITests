@@ -21,7 +21,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CharacterAPI\CharacterAPI.csproj" />
-    <ProjectReference Include="..\PeopleAPI\CharacterAPI.csproj" />
   </ItemGroup>
 
 </Project>

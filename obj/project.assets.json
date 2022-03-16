@@ -5800,9 +5800,6 @@
           "projectReferences": {
             "C:\\Users\\jakes\\Desktop\\CharacterAPI\\CharacterAPI.csproj": {
               "projectPath": "C:\\Users\\jakes\\Desktop\\CharacterAPI\\CharacterAPI.csproj"
-            },
-            "C:\\Users\\jakes\\Desktop\\PeopleAPI\\CharacterAPI.csproj": {
-              "projectPath": "C:\\Users\\jakes\\Desktop\\PeopleAPI\\CharacterAPI.csproj"
             }
           }
         }
