@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+VFpficPXm4bL8jmRyq0QwSzyV0vaunSrv2AgQWKfSZSGIrbRInQngn8pbDlSRp3BCUZlKb38C0odsoIt6F7LA==",
+  "dgSpecHash": "34pMwNo7XySZIRBbyJS/P/ND4UP2gSSCCVctqjZ3M1rACH7MfScDKVqDJF5iwcPR9Ph6NGYPLli0jTfqD+n7Hw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jakes\\Desktop\\PeopleAPITests\\PeopleAPITests.csproj",
+  "projectFilePath": "C:\\Users\\jakes\\Desktop\\CharacterAPITests\\CharacterAPITests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jakes\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\jakes\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

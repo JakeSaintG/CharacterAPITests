@@ -1,21 +1,21 @@
 ﻿
 using System.Collections.Generic;
-using PeopleAPI.Services;
-using PeopleAPI.Models;
+using CharacterAPI.Services;
+using CharacterAPI.Models;
 using Xunit;
 
 namespace PeopleAPITests
 {
-    public class PeopleServiceTest
+    public class CharacterServiceTest
     {   
         [Fact]
         public void GetAllLists_PassTest()
         {
             //Act
-            var actual = PeopleService.GetAll();
+            var actual = CharacterService.GetAll();
             var doesReturnContainExpected = actual.Exists(s => s.Name.Contains("john"));
             //Assert
-            Assert.IsType<List<Person>>(actual);
+            Assert.IsType<List<Character>>(actual);
             Assert.True(doesReturnContainExpected);
         }
 
@@ -26,7 +26,7 @@ namespace PeopleAPITests
             string testUrl = "john";
 
             //Act
-            var actual = PeopleService.Get(testUrl);
+            var actual = CharacterService.Get(testUrl);
             foreach (var item in actual)
             {
                 item.Image = null;
@@ -45,7 +45,7 @@ namespace PeopleAPITests
             string testUrl = "jon";
 
             //Act
-            var actual = PeopleService.Get(testUrl);
+            var actual = CharacterService.Get(testUrl);
             foreach (var item in actual)
             {
                 item.Image = null;
@@ -58,14 +58,14 @@ namespace PeopleAPITests
         }
 
         [Fact]
-        public void AddPerson_Test()
+        public void AddCharacter_Test()
         {
             //Arrange
-            Person person = new Person {Name = "Janis Joplin"};
+            Character character = new Character {Name = "Janis Joplin"};
             //Act
-            PeopleService.Add(person);
+            CharacterService.Add(character);
             string retrive = "Janis";
-            var actual = PeopleService.Get(retrive);
+            var actual = CharacterService.Get(retrive);
             var doesReturnContainExpected = actual.Exists(s => s.Name.Contains("Janis"));
             //Assert
             Assert.True(doesReturnContainExpected);
