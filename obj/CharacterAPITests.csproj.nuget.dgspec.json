@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jakes\\Desktop\\PeopleAPITests\\PeopleAPITests.csproj": {}
+    "C:\\Users\\jakes\\Desktop\\CharacterAPITests\\CharacterAPITests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jakes\\Desktop\\PeopleAPITests\\PeopleAPITests.csproj": {
+    "C:\\Users\\jakes\\Desktop\\CharacterAPITests\\CharacterAPITests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakes\\Desktop\\PeopleAPITests\\PeopleAPITests.csproj",
-        "projectName": "PeopleAPITests",
-        "projectPath": "C:\\Users\\jakes\\Desktop\\PeopleAPITests\\PeopleAPITests.csproj",
+        "projectUniqueName": "C:\\Users\\jakes\\Desktop\\CharacterAPITests\\CharacterAPITests.csproj",
+        "projectName": "CharacterAPITests",
+        "projectPath": "C:\\Users\\jakes\\Desktop\\CharacterAPITests\\CharacterAPITests.csproj",
         "packagesPath": "C:\\Users\\jakes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakes\\Desktop\\PeopleAPITests\\obj\\",
+        "outputPath": "C:\\Users\\jakes\\Desktop\\CharacterAPITests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\jakes\\Desktop\\PeopleAPI\\CharacterAPI.csproj": {
-                "projectPath": "C:\\Users\\jakes\\Desktop\\PeopleAPI\\CharacterAPI.csproj"
+              "C:\\Users\\jakes\\Desktop\\CharacterAPI\\CharacterAPI.csproj": {
+                "projectPath": "C:\\Users\\jakes\\Desktop\\CharacterAPI\\CharacterAPI.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\jakes\\Desktop\\PeopleAPI\\CharacterAPI.csproj": {
+    "C:\\Users\\jakes\\Desktop\\CharacterAPI\\CharacterAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakes\\Desktop\\PeopleAPI\\CharacterAPI.csproj",
+        "projectUniqueName": "C:\\Users\\jakes\\Desktop\\CharacterAPI\\CharacterAPI.csproj",
         "projectName": "CharacterAPI",
-        "projectPath": "C:\\Users\\jakes\\Desktop\\PeopleAPI\\CharacterAPI.csproj",
+        "projectPath": "C:\\Users\\jakes\\Desktop\\CharacterAPI\\CharacterAPI.csproj",
         "packagesPath": "C:\\Users\\jakes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakes\\Desktop\\PeopleAPI\\obj\\",
+        "outputPath": "C:\\Users\\jakes\\Desktop\\CharacterAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
